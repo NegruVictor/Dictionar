@@ -2,7 +2,7 @@ var wordList = new Array;
 function enter() {
     var inputs = document.getElementById("listeWord").value;
     wordList.push(inputs);
-    console.log("The text boxvalue="+document.getElementById('listeWord').value)
+    console.log("The text boxvalue=" + document.getElementById('listeWord').value)
     document.getElementById('listeWord').value = '';
 }
 
@@ -13,6 +13,6 @@ function search() {
         } else {
             alert("the word '" + wordSearch + "' is not in the dictionary");
         }
-        console.log("The text boxvalue="+document.getElementById('word').value)
+        console.log("The text boxvalue=" + document.getElementById('word').value)
         document.getElementById('word').value = '';
 }
